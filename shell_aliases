@@ -1,0 +1,8 @@
+# Conda setup
+export PATH=${HOME}/miniconda/bin:${PATH}
+eval "$(register-python-argcomplete conda)"
+alias workon='source activate'
+alias workoff='source deactivate'
+alias mkvirtualenv='conda create -n'
+alias cdproject="cd ${HOME}/src/<your_project_name>"
+
